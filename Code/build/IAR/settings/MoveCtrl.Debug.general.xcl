@@ -1,0 +1,13 @@
+"D:\ProgramFiles\IAR7.2\arm\bin\armproc.dll" 
+
+"D:\ProgramFiles\IAR7.2\arm\bin\armjlink.dll" 
+
+"E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrlCode\build\IAR\Output\Exe\MoveCtrl.out" 
+
+--plugin "D:\ProgramFiles\IAR7.2\arm\bin\armbat.dll" 
+
+--device_macro "D:\ProgramFiles\IAR7.2\arm\config\debugger\Freescale\KLxx.dmac" 
+
+
+
+
