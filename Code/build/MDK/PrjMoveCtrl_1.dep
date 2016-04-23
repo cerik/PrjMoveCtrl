@@ -1,0 +1,300 @@
+Dependencies for Project 'PrjMoveCtrl', Target '1': (DO NOT MODIFY !)
+F (..\..\src\projects\Src\global.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\global.o --omf_browse ..\output\global.crf --depend ..\output\global.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+F (..\..\src\projects\Src\gpio.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\gpio.o --omf_browse ..\output\gpio.crf --depend ..\output\gpio.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\gpio.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+F (..\..\src\projects\Src\main.c)(0x571B1684)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\gpio.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\pit.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\global.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\TSIDrv.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\sysinit.h)(0x571B1569)
+F (..\..\src\projects\Src\TSIDrv.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\tsidrv.o --omf_browse ..\output\tsidrv.crf --depend ..\output\tsidrv.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\TSIDrv.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+F (..\..\src\common\Src\alloc.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\alloc.o --omf_browse ..\output\alloc.crf --depend ..\output\alloc.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+F (..\..\src\common\Src\assert.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\assert.o --omf_browse ..\output\assert.crf --depend ..\output\assert.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+F (..\..\src\common\Src\io.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\io.o --omf_browse ..\output\io.crf --depend ..\output\io.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\uart.h)(0x571B1569)
+F (..\..\src\common\Src\memtest.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\memtest.o --omf_browse ..\output\memtest.crf --depend ..\output\memtest.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\memtest.h)(0x571B1569)
+F (..\..\src\common\Src\queue.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\queue.o --omf_browse ..\output\queue.crf --depend ..\output\queue.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\queue.h)(0x571B1569)
+F (..\..\src\common\Src\stdlib.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\stdlib.o --omf_browse ..\output\stdlib.crf --depend ..\output\stdlib.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+F (..\..\src\common\Src\uif.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\uif.o --omf_browse ..\output\uif.crf --depend ..\output\uif.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\uif.h)(0x571B1569)
+F (..\..\src\cpu\Src\arm_cm0.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\arm_cm0.o --omf_browse ..\output\arm_cm0.crf --depend ..\output\arm_cm0.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+F (..\..\src\cpu\Src\MDK_MKL05Z4.s)(0x571B1569)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis--list ..\output\mdk_mkl05z4.lst --xref -o ..\output\mdk_mkl05z4.o --depend ..\output\mdk_mkl05z4.d)
+F (..\..\src\cpu\Src\nmi_isr_handler.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\nmi_isr_handler.o --omf_browse ..\output\nmi_isr_handler.crf --depend ..\output\nmi_isr_handler.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\nmi_isr_handler.h)(0x571B1569)
+F (..\..\src\cpu\Src\sysinit.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\sysinit.o --omf_browse ..\output\sysinit.crf --depend ..\output\sysinit.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\sysinit.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\uart.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\rtc.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\rcm.h)(0x571B1569)
+F (..\..\src\drivers\Src\flag.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\flag.o --omf_browse ..\output\flag.crf --depend ..\output\flag.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\flag.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\flash_FTFL.h)(0x571B1569)
+F (..\..\src\drivers\Src\flash.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\flash.o --omf_browse ..\output\flash.crf --depend ..\output\flash.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\flash_FTFL.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+F (..\..\src\drivers\Src\llwu.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\llwu.o --omf_browse ..\output\llwu.crf --depend ..\output\llwu.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\llwu.h)(0x571B1569)
+F (..\..\src\drivers\Src\lptmr.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\lptmr.o --omf_browse ..\output\lptmr.crf --depend ..\output\lptmr.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\lptmr.h)(0x571B1569)
+F (..\..\src\drivers\Src\mcg.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\mcg.o --omf_browse ..\output\mcg.crf --depend ..\output\mcg.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+F (..\..\src\drivers\Src\pit.c)(0x571B15F4)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\pit.o --omf_browse ..\output\pit.crf --depend ..\output\pit.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\pit.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\sysinit.h)(0x571B1569)
+F (..\..\src\drivers\Src\pmc.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\pmc.o --omf_browse ..\output\pmc.crf --depend ..\output\pmc.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\pmc.h)(0x571B1569)
+F (..\..\src\drivers\Src\rcm.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\rcm.o --omf_browse ..\output\rcm.crf --depend ..\output\rcm.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\rcm.h)(0x571B1569)
+F (..\..\src\drivers\Src\Retarget.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\retarget.o --omf_browse ..\output\retarget.crf --depend ..\output\retarget.d)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\rt_misc.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\serial.h)(0x571B1569)
+F (..\..\src\drivers\Src\rtc.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\rtc.o --omf_browse ..\output\rtc.crf --depend ..\output\rtc.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\rtc.h)(0x571B1569)
+F (..\..\src\drivers\Src\Serial.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\serial.o --omf_browse ..\output\serial.crf --depend ..\output\serial.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\Serial.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\uart.h)(0x571B1569)
+F (..\..\src\drivers\Src\uart.c)(0x571B1569)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\projects\Inc -I..\..\src\platforms-I D:\ProgramFiles\Keil\ARM\RV31\INC-I D:\ProgramFiles\Keil\ARM\CMSIS\Include-I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis-DKEIL -DFRDM -DCMSIS -o ..\output\uart.o --omf_browse ..\output\uart.crf --depend ..\output\uart.d)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\common.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\projects\Inc\isr.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\arm_cm0.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\platforms\freedom.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\mcg.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\cpu\Inc\MKL05Z4.h)(0x571B1569)
+I (D:\ProgramFiles\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\assert.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\io.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\common\Inc\stdlib.h)(0x571B1569)
+I (E:\Project\PrjMoveCtrl\CodeDev\PrjMoveCtrl\Code\src\drivers\Inc\uart.h)(0x571B1569)

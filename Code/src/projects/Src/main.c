@@ -64,25 +64,24 @@ int main (void)
     InitGpio();
     InitPit(0,1,1);
     InitPit(1,0xFFFFFFFF,0);
-    //TSI_Init();
-    //TPM_init();
+    TSI_Init();
+    TPM_init();
     printf("\nRunning the fredom_test project.\n");
     StartCounter(&counter,1000000);
     while(1)
     {
-        WiatUs(1000000);
-        //if( CounterArrived(&counter) == TRUE)
+        if(CounterArrived(&counter)==TRUE)
         {
             StartCounter(&counter,1000000);
             printf("i:%d\n",i++);
         }
-        //TSI_SliderRead();
-        //if (GetAbsPosPrecent()>0 ) 
-        //{ 
-        //    SET_LED_BLUE(GetAbsPosPrecent()*10);
-        //    SET_LED_RED(GetAbsPosPrecent()*10);
-        //    SET_LED_GREEN(GetAbsPosPrecent()*10);
-        //}
+        TSI_SliderRead();
+        if (GetAbsPosPrecent()>0 ) 
+        {
+            SET_LED_BLUE(GetAbsPosPrecent()*10);
+            SET_LED_RED(GetAbsPosPrecent()*10);
+            SET_LED_GREEN(GetAbsPosPrecent()*10);
+        }
     } 
 }
 /********************************************************************/

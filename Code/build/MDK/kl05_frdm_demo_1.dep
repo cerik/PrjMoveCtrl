@@ -1,328 +1,0 @@
-Dependencies for Project 'kl05_frdm_demo', Target '1': (DO NOT MODIFY !)
-F (..\..\src\projects\Src\global.c)(0x57135A16)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\global.o" --omf_browse "..\Output\global.crf" --depend "..\Output\global.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis\MKL05Z4.h)(0x51C7AFF8)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis\system_MKL05Z4.h)(0x51C7AFF8)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-F (..\..\src\projects\Src\gpio.c)(0x57143D50)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\gpio.o" --omf_browse "..\Output\gpio.crf" --depend "..\Output\gpio.d")
-I (..\..\src\projects\Inc\gpio.h)(0x571380E7)
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-F (..\..\src\projects\Src\main.c)(0x57143D5B)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\main.o" --omf_browse "..\Output\main.crf" --depend "..\Output\main.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-I (..\..\src\projects\Inc\gpio.h)(0x571380E7)
-I (..\..\src\drivers\Inc\pit.h)(0x57143E11)
-I (..\..\src\projects\Inc\global.h)(0x51021B6D)
-I (..\..\src\projects\Inc\TSIDrv.h)(0x571368AF)
-I (..\..\src\cpu\Inc\sysinit.h)(0x571388C8)
-F (..\..\src\projects\Src\TSIDrv.c)(0x571384F8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\tsidrv.o" --omf_browse "..\Output\tsidrv.crf" --depend "..\Output\tsidrv.d")
-I (..\..\src\projects\Inc\TSIDrv.h)(0x571368AF)
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-F (..\..\src\common\Src\alloc.c)(0x51021B6C)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\alloc.o" --omf_browse "..\Output\alloc.crf" --depend "..\Output\alloc.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis\MKL05Z4.h)(0x51C7AFF8)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis\system_MKL05Z4.h)(0x51C7AFF8)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-F (..\..\src\common\Src\assert.c)(0x51021B6C)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\assert.o" --omf_browse "..\Output\assert.crf" --depend "..\Output\assert.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis\MKL05Z4.h)(0x51C7AFF8)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis\system_MKL05Z4.h)(0x51C7AFF8)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-F (..\..\src\common\Src\io.c)(0x51021B6C)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\io.o" --omf_browse "..\Output\io.crf" --depend "..\Output\io.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-I (..\..\src\drivers\Inc\uart.h)(0x510B360D)
-F (..\..\src\common\Src\memtest.c)(0x51021B6C)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\memtest.o" --omf_browse "..\Output\memtest.crf" --depend "..\Output\memtest.d")
-I (..\..\src\common\Inc\memtest.h)(0x51021B6C)
-F (..\..\src\common\Src\queue.c)(0x51021B6C)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\queue.o" --omf_browse "..\Output\queue.crf" --depend "..\Output\queue.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis\MKL05Z4.h)(0x51C7AFF8)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis\system_MKL05Z4.h)(0x51C7AFF8)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-I (..\..\src\common\Inc\queue.h)(0x51021B6C)
-F (..\..\src\common\Src\stdlib.c)(0x51021B6C)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\stdlib.o" --omf_browse "..\Output\stdlib.crf" --depend "..\Output\stdlib.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis\MKL05Z4.h)(0x51C7AFF8)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis\system_MKL05Z4.h)(0x51C7AFF8)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-F (..\..\src\common\Src\uif.c)(0x56F4EE83)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\uif.o" --omf_browse "..\Output\uif.crf" --depend "..\Output\uif.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis\MKL05Z4.h)(0x51C7AFF8)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis\system_MKL05Z4.h)(0x51C7AFF8)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-I (..\..\src\common\Inc\uif.h)(0x51021B6C)
-F (..\..\src\cpu\Src\arm_cm0.c)(0x56F93F84)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\arm_cm0.o" --omf_browse "..\Output\arm_cm0.crf" --depend "..\Output\arm_cm0.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-F (..\..\src\cpu\Src\MDK_MKL05Z4.s)(0x57138994)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1" -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis --list "..\Output\MDK_MKL05Z4.lst" --xref -o "..\Output\MDK_MKL05Z4.o" --depend "..\Output\MDK_MKL05Z4.d")
-F (..\..\src\cpu\Src\nmi_isr_handler.c)(0x51021B6B)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\nmi_isr_handler.o" --omf_browse "..\Output\nmi_isr_handler.crf" --depend "..\Output\nmi_isr_handler.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-I (..\..\src\cpu\Inc\nmi_isr_handler.h)(0x51021B6B)
-F (..\..\src\cpu\Src\sysinit.c)(0x571388E5)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\sysinit.o" --omf_browse "..\Output\sysinit.crf" --depend "..\Output\sysinit.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-I (..\..\src\cpu\Inc\sysinit.h)(0x571388C8)
-I (..\..\src\drivers\Inc\uart.h)(0x510B360D)
-I (..\..\src\drivers\Inc\rtc.h)(0x56F64E76)
-I (..\..\src\drivers\Inc\rcm.h)(0x51021B6E)
-F (..\..\src\drivers\Src\flag.c)(0x51021B6D)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\flag.o" --omf_browse "..\Output\flag.crf" --depend "..\Output\flag.d")
-I (..\..\src\drivers\Inc\flag.h)(0x51021B6D)
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis\MKL05Z4.h)(0x51C7AFF8)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cm0plus.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7B54A)
-I (D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis\system_MKL05Z4.h)(0x51C7AFF8)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-I (..\..\src\drivers\Inc\flash_FTFL.h)(0x51021B6E)
-F (..\..\src\drivers\Src\flash.c)(0x51021B6D)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\flash.o" --omf_browse "..\Output\flash.crf" --depend "..\Output\flash.d")
-I (..\..\src\drivers\Inc\flash_FTFL.h)(0x51021B6E)
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-F (..\..\src\drivers\Src\llwu.c)(0x5105F7CA)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\llwu.o" --omf_browse "..\Output\llwu.crf" --depend "..\Output\llwu.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-I (..\..\src\drivers\Inc\llwu.h)(0x51021B6E)
-F (..\..\src\drivers\Src\lptmr.c)(0x5105F392)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\lptmr.o" --omf_browse "..\Output\lptmr.crf" --depend "..\Output\lptmr.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-I (..\..\src\drivers\Inc\lptmr.h)(0x51021B6E)
-F (..\..\src\drivers\Src\mcg.c)(0x56F651F4)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\mcg.o" --omf_browse "..\Output\mcg.crf" --depend "..\Output\mcg.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-F (..\..\src\drivers\Src\pit.c)(0x57143DF5)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\pit.o" --omf_browse "..\Output\pit.crf" --depend "..\Output\pit.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-I (..\..\src\drivers\Inc\pit.h)(0x57143E11)
-I (..\..\src\cpu\Inc\sysinit.h)(0x571388C8)
-F (..\..\src\drivers\Src\pmc.c)(0x51021B6D)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\pmc.o" --omf_browse "..\Output\pmc.crf" --depend "..\Output\pmc.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-I (..\..\src\drivers\Inc\pmc.h)(0x51021B6D)
-F (..\..\src\drivers\Src\rcm.c)(0x56F5171D)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\rcm.o" --omf_browse "..\Output\rcm.crf" --depend "..\Output\rcm.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-I (..\..\src\drivers\Inc\rcm.h)(0x51021B6E)
-F (..\..\src\drivers\Src\Retarget.c)(0x510B360D)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\retarget.o" --omf_browse "..\Output\retarget.crf" --depend "..\Output\retarget.d")
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x51C7B744)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\rt_misc.h)(0x51C7B744)
-I (..\..\src\drivers\Inc\serial.h)(0x510B360D)
-F (..\..\src\drivers\Src\rtc.c)(0x56F64EF3)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\rtc.o" --omf_browse "..\Output\rtc.crf" --depend "..\Output\rtc.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-I (..\..\src\drivers\Inc\rtc.h)(0x56F64E76)
-F (..\..\src\drivers\Src\Serial.c)(0x510B360D)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\serial.o" --omf_browse "..\Output\serial.crf" --depend "..\Output\serial.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-I (..\..\src\drivers\Inc\Serial.h)(0x510B360D)
-I (..\..\src\drivers\Inc\uart.h)(0x510B360D)
-F (..\..\src\drivers\Src\uart.c)(0x56F930E9)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --signed_chars -I..\..\src\projects\Inc -I..\..\src\common\Inc -I..\..\src\cpu\Inc -I..\..\src\drivers\Inc -I..\..\src\platforms -I D:\ProgramFiles\Keil\ARM\RV31\INC -I D:\ProgramFiles\Keil\ARM\CMSIS\Include -I D:\ProgramFiles\Keil\ARM\Inc\Freescale\Kinetis -DKEIL -DFRDM -DCMSIS -o "..\Output\uart.o" --omf_browse "..\Output\uart.crf" --depend "..\Output\uart.d")
-I (..\..\src\common\Inc\common.h)(0x57143D3D)
-I (..\..\src\projects\Inc\isr.h)(0x5713853E)
-I (..\..\src\cpu\Inc\arm_cm0.h)(0x56F93F7D)
-I (..\..\src\platforms\freedom.h)(0x56FF2A4D)
-I (..\..\src\drivers\Inc\mcg.h)(0x56F64F3B)
-I (..\..\src\cpu\Inc\MKL05Z4.h)(0x51021B6B)
-I (D:\ProgramFiles\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x51C7B744)
-I (..\..\src\common\Inc\assert.h)(0x51021B6C)
-I (..\..\src\common\Inc\io.h)(0x51021B6C)
-I (..\..\src\common\Inc\stdlib.h)(0x51021B6C)
-I (..\..\src\drivers\Inc\uart.h)(0x510B360D)

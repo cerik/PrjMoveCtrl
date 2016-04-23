@@ -56,7 +56,14 @@ void InitPit(uint8 cChannel,uint32 MsPeriod,uint8 IntEn)
     uint32 val;
     SIM_SCGC6 |= SIM_SCGC6_PIT_MASK;
     PIT_MCR = PIT_MCR_FRZ_MASK; // MDIS = 0  enables timer
-    val = (GetMcgClk()/1000)*MsPeriod/2;
+    if(MsPeriod >= MAX32)
+    {
+        val = MAX32;
+    }
+    else
+    {
+        val = (GetMcgClk()/1000)*MsPeriod/2;
+    }
     PIT_LDVAL_REG(PIT_BASE_PTR,cChannel) = val;
     if(IntEn == TRUE)
     {
@@ -111,18 +118,22 @@ void WaitMs(int32 ms)
 
 void WiatUs(int32 us)
 {
-    int32 t0,tx;
+    uint32 t0,tx,val;
     t0 = PIT_CVAL_REG(PIT_BASE_PTR,1);
     while(us > 0)
     {
         tx = PIT_CVAL_REG(PIT_BASE_PTR,1);
         if( t0 >= tx)
         {
-            us -= (t0 - tx)*1000000/GetMcgClk();
+            val = (t0 - tx)/(GetMcgClk()/2000000);
+            us -= val;
+            t0 = tx;
         }
         else
         {
-            us -= (t0 + MAX32 - tx)*1000000/GetMcgClk();
+            val = (MAX32 - tx+t0)/(GetMcgClk()/2000000);
+            us -= val;
+            t0 = tx;
         }
     }
 }
@@ -141,13 +152,14 @@ int8 CounterArrived(tagCounter *counter)
         counter->tx = PIT_CVAL_REG(PIT_BASE_PTR,1);
         if(counter->t0 >= counter->tx)
         {
-            tmp= (counter->t0 - counter->tx)*1000000/GetMcgClk();
+            tmp= (counter->t0 - counter->tx)/(GetMcgClk()/1000000);
         }
         else
         {
-            tmp= (counter->t0 + MAX32 - counter->tx)*1000000/GetMcgClk();
+            tmp= (counter->t0 + MAX32 - counter->tx)/(GetMcgClk()/1000000);
         }
         counter->us -= tmp;
+        counter->t0 = counter->tx;
     }
     return (counter->us > 0)?FALSE:TRUE;
 }

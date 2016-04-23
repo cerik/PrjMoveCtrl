@@ -44,7 +44,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>..\Output\</OutputDirectory>
-          <OutputName>kl05_frdm_demo_Flash</OutputName>
+          <OutputName>PrjMoveCtrl</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -75,7 +75,7 @@
           <AfterMake>
             <RunUserProg1>0</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
-            <UserProg1Name>fromelf --m32combined --output=outfile.s19  kl05_frdm_demo_Flash.axf</UserProg1Name>
+            <UserProg1Name></UserProg1Name>
             <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
@@ -136,7 +136,7 @@
             <RestoreMemoryDisplay>1</RestoreMemoryDisplay>
             <RestoreFunctions>0</RestoreFunctions>
             <RestoreToolbox>1</RestoreToolbox>
-            <RestoreTracepoints>0</RestoreTracepoints>
+            <RestoreTracepoints>1</RestoreTracepoints>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
           <TargetSelection>7</TargetSelection>
@@ -165,6 +165,7 @@
             <Capability>1</Capability>
             <DriverSelection>4099</DriverSelection>
           </Flash1>
+          <bUseTDR>0</bUseTDR>
           <Flash2>Segger\JL2CM3.dll</Flash2>
           <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
@@ -215,7 +216,7 @@
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <RoSelD>3</RoSelD>
-            <RwSelD>5</RwSelD>
+            <RwSelD>3</RwSelD>
             <CodeSel>0</CodeSel>
             <OptFeed>0</OptFeed>
             <NoZi1>0</NoZi1>
@@ -350,7 +351,7 @@
               <MiscControls></MiscControls>
               <Define>KEIL FRDM CMSIS</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\src\projects\Inc;..\..\src\common\Inc;..\..\src\cpu\Inc;..\..\src\drivers\Inc;..\..\src\platforms</IncludePath>
+              <IncludePath>..\..\src\common\Inc;..\..\src\cpu\Inc;..\..\src\drivers\Inc;..\..\src\projects\Inc;..\..\src\platforms</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -377,19 +378,19 @@
             <RepFail>1</RepFail>
             <useFile>0</useFile>
             <TextAddressRange>0x00000000</TextAddressRange>
-            <DataAddressRange>0x00000000</DataAddressRange>
-            <ScatterFile>kl05_frdm_demo_Flash.sct</ScatterFile>
+            <DataAddressRange>0x1FFFFC00</DataAddressRange>
+            <ScatterFile></ScatterFile>
             <IncludeLibs></IncludeLibs>
             <IncludeLibsPath></IncludeLibsPath>
-            <Misc>
-</Misc>            <LinkerInputFile></LinkerInputFile>
+            <Misc></Misc>
+            <LinkerInputFile></LinkerInputFile>
             <DisabledWarnings></DisabledWarnings>
           </LDads>
         </TargetArmAds>
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>project</GroupName>
+          <GroupName>Project</GroupName>
           <Files>
             <File>
               <FileName>global.c</FileName>
@@ -414,7 +415,7 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>common</GroupName>
+          <GroupName>Common</GroupName>
           <Files>
             <File>
               <FileName>alloc.c</FileName>
@@ -454,7 +455,7 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>cpu</GroupName>
+          <GroupName>Cpu</GroupName>
           <Files>
             <File>
               <FileName>arm_cm0.c</FileName>
@@ -479,7 +480,7 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>drivers</GroupName>
+          <GroupName>Drivers</GroupName>
           <Files>
             <File>
               <FileName>flag.c</FileName>
