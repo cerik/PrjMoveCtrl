@@ -58,7 +58,7 @@ void TPM_init(void)
 /********************************************************************/
 int main (void)
 {
-    uint32 i=0;
+    //uint32 i=0;
     tagCounter counter;
     InitSystem();
     InitGpio();
@@ -67,15 +67,15 @@ int main (void)
     TSI_Init();
     TPM_init();
     printf("\nRunning the fredom_test project.\n");
-    StartCounter(&counter,1000000);
+    StartCounter(&counter,200000);
     while(1)
     {
         if(CounterArrived(&counter)==TRUE)
         {
-            StartCounter(&counter,1000000);
-            printf("i:%d\n",i++);
+            StartCounter(&counter,200000);
+            TSI_SliderRead();
         }
-        TSI_SliderRead();
+
         if (GetAbsPosPrecent()>0 ) 
         {
             SET_LED_BLUE(GetAbsPosPrecent()*10);

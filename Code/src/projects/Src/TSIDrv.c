@@ -1,30 +1,52 @@
 
 #include "TSIDrv.h"
 
-static uint8 elec_array[16]={
-               ELECTRODE0, ELECTRODE1, ELECTRODE2, ELECTRODE3,ELECTRODE4, ELECTRODE5,
-		      ELECTRODE6,ELECTRODE7,ELECTRODE8,ELECTRODE9,ELECTRODE10,ELECTRODE11,
-		      ELECTRODE12,ELECTRODE13,ELECTRODE14,ELECTRODE15};
+/*
+ *  Channel distribution:
+ *            CH8      CH9
+ *
+ *                CH10
+ *
+ *            CH11     CH12
+ */
+ 
+//define the channel convert sequence by array index.
+static uint8  lgCvtSequence[16]={
+                TSICH9, TSICH8, TSICH0, TSICH1, TSICH2, TSICH3, TSICH4, TSICH5,
+                TSICH6, TSICH7, TSICH10,TSICH11,TSICH12,TSICH13,TSICH14,TSICH15};
+//define the threshold for each channel.
+static uint16 lgu16Threshold[16]={
+                THRESHOLD0, THRESHOLD1, THRESHOLD2, THRESHOLD3,THRESHOLD4, THRESHOLD5,
+                THRESHOLD6, THRESHOLD7, THRESHOLD8, THRESHOLD9,THRESHOLD10,THRESHOLD11,
+                THRESHOLD12,THRESHOLD13,THRESHOLD14,THRESHOLD15};
+static uint16 lgu16DeltaVal[16];
+static uint16 lgu16Baseline[16];//stored the min value without any input.
 
-static uint16 gu16Baseline[16];
-static uint16 gu16Threshold[16]={
-               THRESHOLD0, THRESHOLD1, THRESHOLD2, THRESHOLD3,THRESHOLD4, THRESHOLD5,
-                          THRESHOLD6,THRESHOLD7,THRESHOLD8,THRESHOLD9,THRESHOLD10,THRESHOLD11,
-                          THRESHOLD12,THRESHOLD13,THRESHOLD14,THRESHOLD15};
-static uint16 gu16Delta[16];
+//flag to identification wheather convert is finished.
+static uint8  lgCvtEndFlag = TRUE;
 
-static uint8 lgCvtEndFlag = TRUE;
-
-static uint8 SliderPercentegePosition[2] = {NO_TOUCH,NO_TOUCH};
-static uint8 SliderDistancePosition[2]   = {NO_TOUCH,NO_TOUCH};
-
-static uint8 AbsolutePercentegePosition = NO_TOUCH;
-static uint8 AbsoluteDistancePosition   = NO_TOUCH;
-
+/*************************************
+ * For calculate the distance between two side of that slide.
+ */
+static uint8 SliderPercentegePosition[TOTAL_TSICHANNEL] = {NO_TOUCH,NO_TOUCH};
+static uint8 SliderDistancePosition[TOTAL_TSICHANNEL]   = {NO_TOUCH,NO_TOUCH};
+static uint8 AbsolutePercentegePosition  = NO_TOUCH;
+static uint8 AbsoluteDistancePosition    = NO_TOUCH;
 uint8 GetAbsPosPrecent(void)
 {
     return AbsolutePercentegePosition;
 }
+uint8 GetAbsDistance(void)
+{
+    return AbsoluteDistancePosition;
+}
+
+/*******************************************************************
+ * Self calibration funtion.
+ *  Stored the default scaned value into the array lgu16Baseline[].
+ *  Later, the converted value will be subed by this default value 
+ *  for each channel to get a real input value.
+ */
 static void TSI_SelfCalibration(void)
 {
     uint8 cnt;
@@ -33,21 +55,22 @@ static void TSI_SelfCalibration(void)
     TSI0_GENCS |= TSI_GENCS_EOSF_MASK;      // Clear End of Scan Flag 
     TSI0_GENCS &= ~TSI_GENCS_TSIEN_MASK;    // Disable TSI module
 
-    if(TSI0_GENCS & TSI_GENCS_STM_MASK)     // Back-up TSI Trigger mode from Application 
-        trigger_backup = TRUE;
-    else
-        trigger_backup = FALSE;
+    // Back-up TSI Trigger mode from Application 
+    trigger_backup = (TSI0_GENCS & TSI_GENCS_STM_MASK)?TRUE:FALSE;
 
     TSI0_GENCS &= ~TSI_GENCS_STM_MASK;       // Use SW trigger
-    TSI0_GENCS &= ~TSI_GENCS_TSIIEN_MASK;    // Enable TSI interrupts
+    TSI0_GENCS &= ~TSI_GENCS_TSIIEN_MASK;    // Disable TSI interrupts
     TSI0_GENCS |= TSI_GENCS_TSIEN_MASK;      // Enable TSI module
-    for(cnt=0; cnt < TOTAL_ELECTRODE; cnt++) // Get Counts when Electrode not pressed
+    
+    for(cnt=0; cnt < TOTAL_TSICHANNEL; cnt++) // Get Counts when Electrode not pressed
     {
-        TSI0_DATA  = elec_array[cnt] << TSI_DATA_TSICH_SHIFT;
+        //Set convert channel
+        TSI0_DATA  = lgCvtSequence[cnt] << TSI_DATA_TSICH_SHIFT;
         TSI0_DATA |= TSI_DATA_SWTS_MASK;
+        //Wait the convert until finished.
         while(!(TSI0_GENCS & TSI_GENCS_EOSF_MASK));
-        TSI0_GENCS |= TSI_GENCS_EOSF_MASK;
-        gu16Baseline[cnt] = TSI0_DATA & TSI_DATA_TSICNT_MASK; 
+        TSI0_GENCS |= TSI_GENCS_EOSF_MASK;//Clear the flag of end-off-scan.
+        lgu16Baseline[cnt] = TSI0_DATA & TSI_DATA_TSICNT_MASK; //store the converted data.
     }
     TSI0_GENCS &= ~TSI_GENCS_TSIEN_MASK;    // Disable TSI module
     TSI0_GENCS |= TSI_GENCS_TSIIEN_MASK;    // Enale TSI interrupt
@@ -56,10 +79,13 @@ static void TSI_SelfCalibration(void)
     else
         TSI0_GENCS &= ~TSI_GENCS_STM_MASK;
     TSI0_GENCS |= TSI_GENCS_TSIEN_MASK;     // Enable TSI module
-    TSI0_DATA = ((elec_array[0]<<TSI_DATA_TSICH_SHIFT) );
-    TSI0_DATA |= TSI_DATA_SWTS_MASK;
+    TSI0_DATA   = ((lgCvtSequence[0]<<TSI_DATA_TSICH_SHIFT) );//conver from the fist one of the defined.
+    TSI0_DATA  |= TSI_DATA_SWTS_MASK;
 }
 
+/*******************************************************************
+ * TSI module initialization.
+ */
 void TSI_Init (void)
 {
     SIM_SCGC5 |= SIM_SCGC5_TSI_MASK; // Enable clock gating for TSI
@@ -80,74 +106,81 @@ void TSI_Init (void)
                    //| TSI_GENCS_STM_MASK     //Trigger for the module 0=Sofware 
                    );
 
-    TSI0_GENCS |= TSI_GENCS_TSIEN_MASK; 
+    TSI0_GENCS |= TSI_GENCS_TSIEN_MASK; //Enable TSI module.
     TSI_SelfCalibration();
 }
 
-static void change_electrode(void)
-{
-    static uint8 ongoing_elec=0;
-    uint16 u16TsiCount;
-    int16  u16temp_delta;
-
-    u16TsiCount   = (TSI0_DATA & TSI_DATA_TSICNT_MASK);          // Save Counts for current electrode
-    u16temp_delta = u16TsiCount - gu16Baseline[ongoing_elec];  // Obtains Counts Delta from callibration reference
-
-    if( u16temp_delta < 0)
-        gu16Delta[ongoing_elec] = 0;
-    else
-        gu16Delta[ongoing_elec] = u16temp_delta;
-
-    if(TOTAL_ELECTRODE > 1)  //Change Electrode to Scan
-    {
-        ongoing_elec = (ongoing_elec+1) % TOTAL_ELECTRODE;
-
-        TSI0_DATA = ((elec_array[ongoing_elec]<<TSI_DATA_TSICH_SHIFT) );//set the channel will be measured.
-        TSI0_DATA |= TSI_DATA_SWTS_MASK; //start a scan.
-    } 
-}
-
-/*
+/*******************************************************************
  * TSI_Sliderread
  *  return  
  *       AbsolutePercentegePosition  0-100  or if not 
  *       AbsoluteDistancePosition
  *
-*/
+ */
 void TSI_SliderRead(void )
 {
     if(lgCvtEndFlag)
-    {    
+    {
         lgCvtEndFlag = FALSE;
-        if((gu16Delta[0] > gu16Threshold[0])||(gu16Delta[1] > gu16Threshold[1]))
+        if((lgu16DeltaVal[0] > lgu16Threshold[0])||(lgu16DeltaVal[1] > lgu16Threshold[1]))
         {
-            SliderPercentegePosition[0] = (gu16Delta[0]*100)/(gu16Delta[0]+gu16Delta[1]);
-            SliderPercentegePosition[1] = (gu16Delta[1]*100)/(gu16Delta[0]+gu16Delta[1]);
-            SliderDistancePosition[0] = (SliderPercentegePosition[0]* SLIDER_LENGTH)/100;
-            SliderDistancePosition[1] = (SliderPercentegePosition[1]* SLIDER_LENGTH)/100;
-            AbsolutePercentegePosition = ((100 - SliderPercentegePosition[0]) + SliderPercentegePosition[1])/2;
-            AbsoluteDistancePosition = ((SLIDER_LENGTH - SliderDistancePosition[0]) + SliderDistancePosition[1])/2;
+            SliderPercentegePosition[0] = (lgu16DeltaVal[0]*100)/(lgu16DeltaVal[0]+lgu16DeltaVal[1]);
+            SliderPercentegePosition[1] = (lgu16DeltaVal[1]*100)/(lgu16DeltaVal[0]+lgu16DeltaVal[1]);
+            SliderDistancePosition[0]   = (SliderPercentegePosition[0]* SLIDER_LENGTH)/100;
+            SliderDistancePosition[1]   = (SliderPercentegePosition[1]* SLIDER_LENGTH)/100;
+            AbsolutePercentegePosition  = ((100 - SliderPercentegePosition[0]) + SliderPercentegePosition[1])/2;
+            AbsoluteDistancePosition    = ((SLIDER_LENGTH - SliderDistancePosition[0]) + SliderDistancePosition[1])/2;
         }else
         {
-            SliderPercentegePosition[0] = NO_TOUCH;  
-            SliderPercentegePosition[1] = NO_TOUCH; 
-            SliderDistancePosition[0] = NO_TOUCH; 
-            SliderDistancePosition[1] = NO_TOUCH; 
-            AbsolutePercentegePosition = NO_TOUCH; 
-            AbsoluteDistancePosition = NO_TOUCH; 
+            SliderPercentegePosition[0] = NO_TOUCH;
+            SliderPercentegePosition[1] = NO_TOUCH;
+            SliderDistancePosition[0]   = NO_TOUCH;
+            SliderDistancePosition[1]   = NO_TOUCH;
+            AbsolutePercentegePosition  = NO_TOUCH;
+            AbsoluteDistancePosition    = NO_TOUCH;
         }
-        //printf("Percentage = %3d %,Distance = %3d mm\r\n",AbsolutePercentegePosition,AbsoluteDistancePosition);   
+        //printf("Percentage = %3d %%,Distance = %3d mm\r\n",AbsolutePercentegePosition,AbsoluteDistancePosition);
+        printf("CH[0,1]: %d , %d\r\n",lgu16DeltaVal[0],lgu16DeltaVal[1]);
     }
 }
 
-/* 
+/*******************************************************************
+ * Get the user action.
+ * User action is identified within 1s.
+ *
+ */
+USER_ACTION_T GetUserAction(void)
+{
+    return UA_NONE;
+}
+
+/*******************************************************************
  * TSI Interrupt Handler.
  *
  */
 void TSI0_IRQHandler(void)
 {
-    lgCvtEndFlag = TRUE;
-    TSI0_GENCS |= TSI_GENCS_EOSF_MASK; // Clear End of Scan Flag
-    change_electrode();
-}
+    static uint8 tsiChIndex=0;
+    uint16 u16TsiChValue;
+    int16  i16TempDelta;
 
+    TSI0_GENCS |= TSI_GENCS_EOSF_MASK; // Clear End of Scan Flag
+    lgCvtEndFlag = TRUE;
+    
+    u16TsiChValue = (TSI0_DATA & TSI_DATA_TSICNT_MASK);        // Save Counts for current scaned value.
+    i16TempDelta  = u16TsiChValue - lgu16Baseline[tsiChIndex]; // Obtains Counts Delta from callibration reference
+
+    if( i16TempDelta < 0)
+        lgu16DeltaVal[tsiChIndex] = 0;
+    else
+        lgu16DeltaVal[tsiChIndex] = i16TempDelta;
+
+    if(TOTAL_TSICHANNEL > 1)  //Change Electrode to Scan
+    {
+        tsiChIndex = (tsiChIndex+1) % TOTAL_TSICHANNEL;
+        
+        //Set the next channel which will be scaned.
+        TSI0_DATA  = ((lgCvtSequence[tsiChIndex]<<TSI_DATA_TSICH_SHIFT) );
+        TSI0_DATA |= TSI_DATA_SWTS_MASK; //start a scan.
+    } 
+}
